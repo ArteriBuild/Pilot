@@ -1,0 +1,6 @@
+run = "python -m streamlit run main.py"
+modules = ["python-3.10"]
+
+[[ports]]
+localPort = 80
+externalPort = 80
