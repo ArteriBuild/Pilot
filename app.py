@@ -1,12 +1,19 @@
 import os
-print(os.listdir('.'))
 import streamlit as st
+
+# Print environment variables for debugging
+print("Environment variables:", os.environ)
+
+# Set the port to the one provided by Streamlit Sharing
+port = int(os.environ.get("PORT", 8501))
+
 def main():
     st.title("My Streamlit App")
     st.write("Hello, World!")
 
 if __name__ == "__main__":
     main()
+    
 import google.generativeai as genai
 from dotenv import load_dotenv
 import requests
