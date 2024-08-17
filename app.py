@@ -1,5 +1,12 @@
 import os
+print(os.listdir('.'))
 import streamlit as st
+def main():
+    st.title("My Streamlit App")
+    st.write("Hello, World!")
+
+if __name__ == "__main__":
+    main()
 import google.generativeai as genai
 from dotenv import load_dotenv
 import requests
