@@ -1,7 +1,5 @@
 import os
 import streamlit as st
-
-    
 import google.generativeai as genai
 from dotenv import load_dotenv
 import requests
