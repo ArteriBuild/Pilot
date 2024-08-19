@@ -5,3 +5,5 @@ enableXsrfProtection = false
 [browser]
 serverAddress = "0.0.0.0"
 serverPort = 8501
+[server]
+maxUploadSize = 200
